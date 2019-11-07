@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: device.management
+---
+testFramework: junit
+sourceLanguage: java

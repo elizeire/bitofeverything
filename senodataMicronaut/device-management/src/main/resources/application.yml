@@ -1,0 +1,22 @@
+micronaut:
+  application:
+    name: device-management
+
+jackson:
+  bean-introspection-module: true
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/micronaut_test?ssl=false
+    driverClassName: org.postgresql.Driver
+    username: micronaut_test
+    password: micronaut_test
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        hbm2ddl:
+          auto: create-drop
+        show_sql: true

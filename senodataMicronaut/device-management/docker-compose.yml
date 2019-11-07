@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=micronaut_test
+      - POSTGRES_PASSWORD=micronaut_test
+      - POSTGRES_DB=micronaut_test
