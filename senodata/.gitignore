@@ -2,3 +2,4 @@
 /deviceManagement/target/
 /userManagement/target/
 .idea
+*.iml

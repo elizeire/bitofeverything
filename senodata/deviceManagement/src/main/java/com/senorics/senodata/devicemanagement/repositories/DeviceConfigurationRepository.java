@@ -9,5 +9,6 @@ import io.swagger.annotations.Api;
 @Api
 @RepositoryRestResource
 @CrossOrigin(origins = "http://localhost:3000")
+
 public interface DeviceConfigurationRepository extends JpaRepository<DeviceConfiguration, Integer> {
 }
